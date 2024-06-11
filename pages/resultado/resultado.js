@@ -1,4 +1,3 @@
-
 import {verificarTema, trocarTema} from "../../helpers/tema-helper.js"
 
 const botaoTema = document.querySelector(".tema button")

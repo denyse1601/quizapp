@@ -1,7 +1,7 @@
 let tema = "claro"
 
 export function trocarTema(body, botaoTema) {
-    if (localStorage.getItem("tema")) { 
+    if (localStorage.getItem("tema")) {
         tema = localStorage.getItem("tema")
     }
 
@@ -16,7 +16,7 @@ export function trocarTema(body, botaoTema) {
     }
 }
 
-export function verificarTema(body, botaoTema) {
+export function verificarTema (body, botaoTema) {
     if (localStorage.getItem("tema")) {
         tema = localStorage.getItem("tema")
     }
