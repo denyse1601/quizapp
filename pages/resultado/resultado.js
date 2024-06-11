@@ -1,3 +1,4 @@
+
 import {verificarTema, trocarTema} from "../../helpers/tema-helper.js"
 
 const botaoTema = document.querySelector(".tema button")
@@ -36,7 +37,7 @@ function inserirResultado() {
 
         <strong>${pontos}</strong>
 
-        <p>8 de 10</p>
+        <p>de 10</p>
     `
 }
 
