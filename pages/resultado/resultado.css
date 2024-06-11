@@ -55,7 +55,7 @@ header {
 .assunto {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 16px 24px;
 }
 
 .assunto_icone {
@@ -80,7 +80,7 @@ header {
 }
 
 .assunto_icone.acessibilidade {
-    background: var(--bg-acessibilidade);
+    background: var(--bg-acesibilidade);
 }
 
 .assunto_icone img {
@@ -201,6 +201,25 @@ main button:hover {
         height: 56px;
         padding: 8px;
     }
+
+    .assunto_icone.html {
+        background: var(--bg-html);
+    
+    }
+
+    .assunto_icone.javascript {
+        background: var(--bg-javascript);
+    }
+    
+    .assunto_icone.acessibilidade {
+        background: var(--bg-acessibilidade);
+    }
+
+    .assunto_icone.css {
+        background: var(--bg-css);
+    }
+
+
     
     .assunto h1 {
         font-size: 28px;

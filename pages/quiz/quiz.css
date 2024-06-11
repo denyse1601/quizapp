@@ -58,13 +58,6 @@ header {
     gap: 16px;
 }
 
-.assunto_icone {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 .assunto_icone.html {
     background: var(--bg-html);
 
@@ -79,8 +72,9 @@ header {
 }
 
 .assunto_icone.acessibilidade {
-    background: var(--bg-acessibilidade);
+    background: var(--bg-acesibilidade);
 }
+
 
 .assunto_icone img {
     width: 100%;
